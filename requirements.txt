@@ -1,0 +1,24 @@
+# Backend Requirements
+fastapi==0.115.4
+uvicorn[standard]==0.32.1
+python-multipart==0.0.12
+pillow==11.0.0
+
+# Core ML Libraries
+torch==2.1.0
+torchvision==0.16.0
+numpy==2.1.3
+pandas==2.2.3
+scikit-learn==1.5.2
+
+# Visualization
+matplotlib==3.9.2
+seaborn==0.13.2
+
+# Data Generation Requirements
+yfinance==0.2.48
+mplfinance==0.12.10b0
+
+# Additional Utilities
+requests==2.32.3
+python-dotenv==1.0.1
