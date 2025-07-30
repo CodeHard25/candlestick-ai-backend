@@ -1,24 +1,24 @@
 # Backend Requirements
-fastapi==0.115.4
-uvicorn[standard]==0.32.1
-python-multipart==0.0.12
-pillow==11.0.0
+fastapi>=0.100.0
+uvicorn[standard]>=0.30.0
+python-multipart>=0.0.10
+pillow>=10.0.0
 
-# Core ML Libraries
-torch==2.5.1
-torchvision==0.20.1
-numpy==2.1.3
-pandas==2.2.3
-scikit-learn==1.5.2
+# Core ML Libraries - Use latest available versions
+torch>=2.5.0
+torchvision>=0.21.0
+numpy>=1.24.0
+pandas>=2.0.0
+scikit-learn>=1.3.0
 
 # Visualization
-matplotlib==3.9.2
-seaborn==0.13.2
+matplotlib>=3.7.0
+seaborn>=0.12.0
 
 # Data Generation Requirements
-yfinance==0.2.48
-mplfinance==0.12.10b0
+yfinance>=0.2.40
+mplfinance>=0.12.0
 
 # Additional Utilities
-requests==2.32.3
-python-dotenv==1.0.1
+requests>=2.30.0
+python-dotenv>=1.0.0
