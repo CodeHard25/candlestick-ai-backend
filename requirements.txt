@@ -11,5 +11,11 @@ numpy
 pandas
 scikit-learn
 
+# Data Generation and Training (for local development)
+yfinance
+mplfinance
+matplotlib
+seaborn
+
 # Basic utilities
 requests
